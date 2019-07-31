@@ -6,11 +6,11 @@ In this challenge, you will write an API that can be used to manage _Zoos_ store
 
 Follow these steps for starting your project.
 
-- [ ] Fork this repository and **clone your fork**.
-- [ ] Add your project manager as collaborator on your fork.
-- [ ] Create a new branch: git checkout -b `<firstName-lastName>`.
-- [ ] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
-- [ ] Push commits: git push origin `<firstName-lastName>`.
+- [√] Fork this repository and **clone your fork**.
+- [√] Add your project manager as collaborator on your fork.
+- [√] Create a new branch: git checkout -b `<firstName-lastName>`.
+- [√] Implement the project on your newly created `<firstName-lastName>` branch, committing changes regularly.
+- [√] Push commits: git push origin `<firstName-lastName>`.
 
 Follow these steps for completing your project.
 
@@ -58,6 +58,6 @@ When the client makes a `DELETE` request to this endpoint, the _zoo_ that has th
 
 When the client makes a `PUT` request to this endpoint passing an object with the changes, the _zoo_ with the provided `id` should be updated with the new information.
 
-## Stretch Problem
+## Stretch Problem ##
 
 Add a new _bears_ table to the database and add endpoints to perform CRUD operations on it. Each bear should have an `id` and `name` property similar to the _zoos_ table.
